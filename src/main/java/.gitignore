@@ -16,3 +16,4 @@ out/
 
 # 忽略日志文件
 *.log
+src/main/resources/application-local.properties
