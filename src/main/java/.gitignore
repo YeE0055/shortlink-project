@@ -1,0 +1,18 @@
+# 忽略 macOS 系统文件
+.DS_Store
+
+# 忽略 Windows 系统文件
+Thumbs.db
+
+# === 核心：忽略 IDEA 的个性化配置文件夹 ===
+.idea/
+*.iml
+*.iws
+
+# === 核心：忽略 Maven/Gradle 构建产生的文件（非常大！） ===
+target/
+build/
+out/
+
+# 忽略日志文件
+*.log
